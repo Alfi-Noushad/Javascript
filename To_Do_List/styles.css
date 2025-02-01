@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+    border-color: black ;
+    max-width: 800px;       /* Maximum width */
+    min-width: 400px;
+    overflow: auto;
+    font-family: Arial;
+}
+.todo_list_input{
+    margin: 60px;
+    padding: 20px;
+}
+.heading{
+    margin: 60px;
+    padding: 20px;
+}
+.todo_list_input, .to_do{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.input_text, .input_date, .info_add{
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 6px;
+}
+.info_add{
+     font-weight: bold;
+     background-color: green;
+     color: white;
+     border: none;
+     font-size: 15px;
+     cursor: pointer;
+     box-sizing: border-box;
+     transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+.info_add:hover{
+    transform: scaleY(1.2);
+    font-size: 16px;
+}
+.todo_list_showing{
+    margin-left: 88px;
+    border-color: black;
+}
+.todo_delete{
+    background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+ .todo_delete:hover{
+    transform: scaleY(0.9);
+    font-size: 13px;
+    font-weight: bold;
+ }
+
+
+
