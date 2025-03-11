@@ -49,6 +49,8 @@ function todolist(){
         });
         
         rendertodo();
+
+     ds
         
         text.value = "";
     
