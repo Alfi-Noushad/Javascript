@@ -50,7 +50,7 @@ function todolist(){
         
         rendertodo();
 
-     dos
+
         text.value = "";
     
 }
