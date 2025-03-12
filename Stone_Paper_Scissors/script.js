@@ -36,7 +36,7 @@ document.querySelector(''.scissors')
   .addEventListener('click', () => {
       playgame("scissors");
   });
-hatha
+
 */
 
 document.body.addEventListener('keydown', (event) => {
